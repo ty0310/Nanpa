@@ -21,7 +21,7 @@
     NSString *url = @"http://54.178.229.23/users.php";
     NSMutableURLRequest *request = [NSMutableURLRequest new];
     [request setURL:[NSURL URLWithString:url]];
-    NSString *body =[NSString stringWithFormat:@"name=ともや&image=こんにちわ"];
+    NSString *body =[NSString stringWithFormat:@"name=ともや&image=こんにちわ&age=25"];
     [request setHTTPMethod:@"POST"];
     [request setHTTPBody:[body dataUsingEncoding:NSUTF8StringEncoding]];
     NSData *returnData = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
