@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10410871194424A400CE2B04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10410870194424A400CE2B04 /* Foundation.framework */; };
+		10410873194424A400CE2B04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10410872194424A400CE2B04 /* CoreGraphics.framework */; };
+		10410875194424A400CE2B04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10410874194424A400CE2B04 /* UIKit.framework */; };
+		1041087B194424A400CE2B04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10410879194424A400CE2B04 /* InfoPlist.strings */; };
+		1041087D194424A400CE2B04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1041087C194424A400CE2B04 /* main.m */; };
+		10410881194424A400CE2B04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10410880194424A400CE2B04 /* AppDelegate.m */; };
+		10410884194424A400CE2B04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10410882194424A400CE2B04 /* Main.storyboard */; };
+		10410887194424A400CE2B04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10410886194424A400CE2B04 /* ViewController.m */; };
+		10410889194424A400CE2B04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10410888194424A400CE2B04 /* Images.xcassets */; };
+		10410890194424A400CE2B04 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1041088F194424A400CE2B04 /* XCTest.framework */; };
+		10410891194424A400CE2B04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10410870194424A400CE2B04 /* Foundation.framework */; };
+		10410892194424A400CE2B04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10410874194424A400CE2B04 /* UIKit.framework */; };
+		1041089A194424A400CE2B04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10410898194424A400CE2B04 /* InfoPlist.strings */; };
+		1041089C194424A400CE2B04 /* NanpaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1041089B194424A400CE2B04 /* NanpaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10410893194424A400CE2B04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10410865194424A400CE2B04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1041086C194424A400CE2B04;
+			remoteInfo = Nanpa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1041086D194424A400CE2B04 /* Nanpa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nanpa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10410870194424A400CE2B04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		10410872194424A400CE2B04 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		10410874194424A400CE2B04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		10410878194424A400CE2B04 /* Nanpa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nanpa-Info.plist"; sourceTree = "<group>"; };
+		1041087A194424A400CE2B04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1041087C194424A400CE2B04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1041087E194424A400CE2B04 /* Nanpa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nanpa-Prefix.pch"; sourceTree = "<group>"; };
+		1041087F194424A400CE2B04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10410880194424A400CE2B04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10410883194424A400CE2B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10410885194424A400CE2B04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		10410886194424A400CE2B04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		10410888194424A400CE2B04 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1041088E194424A400CE2B04 /* NanpaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanpaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1041088F194424A400CE2B04 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		10410897194424A400CE2B04 /* NanpaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NanpaTests-Info.plist"; sourceTree = "<group>"; };
+		10410899194424A400CE2B04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1041089B194424A400CE2B04 /* NanpaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NanpaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1041086A194424A400CE2B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10410873194424A400CE2B04 /* CoreGraphics.framework in Frameworks */,
+				10410875194424A400CE2B04 /* UIKit.framework in Frameworks */,
+				10410871194424A400CE2B04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1041088B194424A400CE2B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10410890194424A400CE2B04 /* XCTest.framework in Frameworks */,
+				10410892194424A400CE2B04 /* UIKit.framework in Frameworks */,
+				10410891194424A400CE2B04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10410864194424A400CE2B04 = {
+			isa = PBXGroup;
+			children = (
+				10410876194424A400CE2B04 /* Nanpa */,
+				10410895194424A400CE2B04 /* NanpaTests */,
+				1041086F194424A400CE2B04 /* Frameworks */,
+				1041086E194424A400CE2B04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1041086E194424A400CE2B04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1041086D194424A400CE2B04 /* Nanpa.app */,
+				1041088E194424A400CE2B04 /* NanpaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1041086F194424A400CE2B04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10410870194424A400CE2B04 /* Foundation.framework */,
+				10410872194424A400CE2B04 /* CoreGraphics.framework */,
+				10410874194424A400CE2B04 /* UIKit.framework */,
+				1041088F194424A400CE2B04 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10410876194424A400CE2B04 /* Nanpa */ = {
+			isa = PBXGroup;
+			children = (
+				1041087F194424A400CE2B04 /* AppDelegate.h */,
+				10410880194424A400CE2B04 /* AppDelegate.m */,
+				10410882194424A400CE2B04 /* Main.storyboard */,
+				10410885194424A400CE2B04 /* ViewController.h */,
+				10410886194424A400CE2B04 /* ViewController.m */,
+				10410888194424A400CE2B04 /* Images.xcassets */,
+				10410877194424A400CE2B04 /* Supporting Files */,
+			);
+			path = Nanpa;
+			sourceTree = "<group>";
+		};
+		10410877194424A400CE2B04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10410878194424A400CE2B04 /* Nanpa-Info.plist */,
+				10410879194424A400CE2B04 /* InfoPlist.strings */,
+				1041087C194424A400CE2B04 /* main.m */,
+				1041087E194424A400CE2B04 /* Nanpa-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10410895194424A400CE2B04 /* NanpaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1041089B194424A400CE2B04 /* NanpaTests.m */,
+				10410896194424A400CE2B04 /* Supporting Files */,
+			);
+			path = NanpaTests;
+			sourceTree = "<group>";
+		};
+		10410896194424A400CE2B04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10410897194424A400CE2B04 /* NanpaTests-Info.plist */,
+				10410898194424A400CE2B04 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1041086C194424A400CE2B04 /* Nanpa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1041089F194424A400CE2B04 /* Build configuration list for PBXNativeTarget "Nanpa" */;
+			buildPhases = (
+				10410869194424A400CE2B04 /* Sources */,
+				1041086A194424A400CE2B04 /* Frameworks */,
+				1041086B194424A400CE2B04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nanpa;
+			productName = Nanpa;
+			productReference = 1041086D194424A400CE2B04 /* Nanpa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1041088D194424A400CE2B04 /* NanpaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 104108A2194424A400CE2B04 /* Build configuration list for PBXNativeTarget "NanpaTests" */;
+			buildPhases = (
+				1041088A194424A400CE2B04 /* Sources */,
+				1041088B194424A400CE2B04 /* Frameworks */,
+				1041088C194424A400CE2B04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10410894194424A400CE2B04 /* PBXTargetDependency */,
+			);
+			name = NanpaTests;
+			productName = NanpaTests;
+			productReference = 1041088E194424A400CE2B04 /* NanpaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10410865194424A400CE2B04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = TomoyaYuzawa;
+				TargetAttributes = {
+					1041088D194424A400CE2B04 = {
+						TestTargetID = 1041086C194424A400CE2B04;
+					};
+				};
+			};
+			buildConfigurationList = 10410868194424A400CE2B04 /* Build configuration list for PBXProject "Nanpa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10410864194424A400CE2B04;
+			productRefGroup = 1041086E194424A400CE2B04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1041086C194424A400CE2B04 /* Nanpa */,
+				1041088D194424A400CE2B04 /* NanpaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1041086B194424A400CE2B04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10410889194424A400CE2B04 /* Images.xcassets in Resources */,
+				1041087B194424A400CE2B04 /* InfoPlist.strings in Resources */,
+				10410884194424A400CE2B04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1041088C194424A400CE2B04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1041089A194424A400CE2B04 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10410869194424A400CE2B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10410887194424A400CE2B04 /* ViewController.m in Sources */,
+				10410881194424A400CE2B04 /* AppDelegate.m in Sources */,
+				1041087D194424A400CE2B04 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1041088A194424A400CE2B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1041089C194424A400CE2B04 /* NanpaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10410894194424A400CE2B04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1041086C194424A400CE2B04 /* Nanpa */;
+			targetProxy = 10410893194424A400CE2B04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10410879194424A400CE2B04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1041087A194424A400CE2B04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		10410882194424A400CE2B04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10410883194424A400CE2B04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10410898194424A400CE2B04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10410899194424A400CE2B04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1041089D194424A400CE2B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1041089E194424A400CE2B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		104108A0194424A400CE2B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nanpa/Nanpa-Prefix.pch";
+				INFOPLIST_FILE = "Nanpa/Nanpa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		104108A1194424A400CE2B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nanpa/Nanpa-Prefix.pch";
+				INFOPLIST_FILE = "Nanpa/Nanpa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		104108A3194424A400CE2B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Nanpa.app/Nanpa";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nanpa/Nanpa-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NanpaTests/NanpaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		104108A4194424A400CE2B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Nanpa.app/Nanpa";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nanpa/Nanpa-Prefix.pch";
+				INFOPLIST_FILE = "NanpaTests/NanpaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10410868194424A400CE2B04 /* Build configuration list for PBXProject "Nanpa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1041089D194424A400CE2B04 /* Debug */,
+				1041089E194424A400CE2B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1041089F194424A400CE2B04 /* Build configuration list for PBXNativeTarget "Nanpa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				104108A0194424A400CE2B04 /* Debug */,
+				104108A1194424A400CE2B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		104108A2194424A400CE2B04 /* Build configuration list for PBXNativeTarget "NanpaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				104108A3194424A400CE2B04 /* Debug */,
+				104108A4194424A400CE2B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10410865194424A400CE2B04 /* Project object */;
+}
